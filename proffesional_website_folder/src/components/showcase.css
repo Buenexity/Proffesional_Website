@@ -1,0 +1,54 @@
+
+.showcase-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .showcase {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(26, 24, 24, 0.1);
+    background: linear-gradient(to bottom right, #141c1f, #1e272e);
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #f8f9fa;
+    font-size: 2rem;
+    text-align: center; 
+    z-index: 1;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image 
+  {
+    width: 100%;
+    min-height: 400px;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .showcase:hover .image {
+    transform: scale(1.1);
+    filter: brightness(20%) ;
+  }
+  
+  .showcase:hover .title 
+  {
+    opacity: 1;
+  }
+  
