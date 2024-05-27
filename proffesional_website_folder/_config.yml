@@ -1,6 +1,0 @@
-# Exclude README file
-
-exclude:
-  - README.md
-  - README.txt
-  - README
