@@ -1,16 +1,6 @@
-name: CI
+# Exclude README file
 
-on:
-  push:
-    paths-ignore:
-      - 'README.md'
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Run build
-        run: echo "Building the project..."
+exclude:
+  - README.md
+  - README.txt
+  - README
