@@ -1,0 +1,3 @@
+exclude:
+  - README.md
+  - "node_modules/**/*.md"
