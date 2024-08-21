@@ -1,68 +1,50 @@
 .job-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 1px solid #444;
+    padding: 30px;
+    margin: 30px auto;
     border-radius: 10px;
-    padding: 24px;
-    margin: 16px auto;
-    background-color: #2a393f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 80%;
-    max-width: 700px;
-}
-
-.job-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    color: #fff;
-}
-
-.job-header-title {
-    margin: 0;
-    color: #f0ede2;
-    font-size: 1.8em;
-    text-align: center;
-    font-weight: 600;
-}
-
-.job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
     width: 100%;
-    padding: 0 16px;
-    margin-top: 16px;
-}
-
-.job-header::before 
-{
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #ececeb;
-    transform: translateX(-50%);
-}
-
-.job-title, .job-date {
+    background-color: #1a1a1a; 
+    border: 2px solid #333; 
+  }
+  
+  .job-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+  
+  .job-text-container {
     flex: 1;
-    text-align: center;
-    font-size: 1.2em;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.job-description 
-{
-    margin-top: 16px;
-    color: #ffffff;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 1.3em;
-    max-width: 600px;
-}
+  }
+  
+  .job-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fcfafa;
+    margin-bottom: 10px;
+  }
+  
+  .job-date {
+    font-size: 18px;
+    color: #fcfafa;
+    margin-bottom: 20px;
+  }
+  
+  .job-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fcfafa;
+  }
+  
+  .job-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  

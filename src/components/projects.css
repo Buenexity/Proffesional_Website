@@ -26,14 +26,14 @@ body {
 
 .text-container h2 {
   font-size: 26px; 
-  color: rgb(241, 231, 231);
+  color: rgb(238, 230, 230);
   margin-bottom: 10px;
 }
 
 .text-container p {
   text-align: left;
   font-size: 18px; 
-  color: rgb(192, 181, 181);
+  color: rgb(224, 216, 216);
   line-height: 1.6; 
 }
 

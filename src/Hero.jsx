@@ -1,4 +1,6 @@
+import React from 'react';
 import "./Hero.css";
+import selfieImage from "../public/selfie.jpg"; 
 
 function Hero() {
   return (
@@ -12,7 +14,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero-img">
-        <img id="img-pic" src="./public/selfie.jpg" alt="Selfie" />
+        <img id="img-pic" src={selfieImage} alt="Selfie" />
       </div>
     </div>
   );

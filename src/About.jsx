@@ -1,5 +1,7 @@
 import Lists from "./components/skillscheck.jsx"; 
-import "./About.css"
+import "./About.css" 
+
+
 function About() {
     const items = ["Embedded Systems", "Web Development", "Microcontrollers"]; 
     const items2 = ["Video Games" , "Traveling"]; 
@@ -23,9 +25,7 @@ function About() {
         </div>
          <div className="List-items">
         <Lists title="Interests" items={items} />
-        <Lists title="Hobbies and Interests" items={items2} />
         <Lists title="Technical Proficiencies" items={items3} />
-        <Lists title="Courses" items={items4} />
         </div>
         <h1><a href = ".\public\RosendoMarquez_Resume (3).pdf"><b>Resume Button</b></a></h1>
         

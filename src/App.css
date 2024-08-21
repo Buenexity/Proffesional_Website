@@ -1,3 +1,4 @@
+
 .Education 
 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -39,8 +40,9 @@
   gap: 20px;
 }
 
+
 .content {
-  background-image: url("./public/grad.jpg");
+  background-image: url("../public/grad.jpg");
   -webkit-background-size: cover;
   background-position: center;
   background-size: cover; 
